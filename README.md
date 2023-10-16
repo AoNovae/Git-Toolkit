@@ -21,13 +21,21 @@ GitLab Cloner is a simple GUI application that facilitates the process of clonin
 2. Install the required Python libraries:
    ```bash
    pip install requests PyGObject
-
+3. Install complements
+ ```bash
+   sudo apt-get install -y python3-gi python3-gi-cairo gir1.2-gtk-3.0 
+   
 1. Clone this repository:
    ```bash
    git clone https://github.com/AoNovae/Git-Toolkit.git
 2. Navigate to the repository
     ```bash
     cd Git-Toolkit
+3. Activate env
+   ```bash
+   python3 -m venv .venv --system-site-packages
+   . .venv/bin/activate
+   pip install -r requirements.txt
 
 ## Usage
 
